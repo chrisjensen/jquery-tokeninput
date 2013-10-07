@@ -5,8 +5,14 @@ Overview
 --------
 Tokeninput is a jQuery plugin which allows your users to select multiple items from a predefined list, using autocompletion as they type to find each item. You may have seen a similar type of text entry when filling in the recipients field sending messages on facebook.
 
-Changes from original jquery-tokeninput
----------------------------------------
+Changes from upstream
+---------------------
+
+### Trigger change event
+Listeners for $(element).change() will receive a change event just like other inputs.
+
+Changes from original jquery-tokeninput by upstream
+---------------------------------------------------
 
 This is a forked version of jquery-tokeninput with a couple of different things. I grouped a small list of changes between original loopj's version from mine.
 

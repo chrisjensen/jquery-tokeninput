@@ -903,6 +903,9 @@ $.TokenList = function (input, url_or_data_or_function, settings) {
     function update_hidden_input() {
         var formatter = settings.tokensFormatter || format_tokens;
         hidden_input.val(formatter(saved_tokens));
+        
+   		// Trigger a change event for listeners
+		hidden_input.change();
     }
 
     // Hide and clear the results dropdown
