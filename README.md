@@ -9,7 +9,12 @@ Changes from upstream
 ---------------------
 
 ### Show search immediately
-Allows you to set settings.minChar to 0, which will cause it to do a search instead of showing the hint.
+Allows you to do a search immediately instead of showing the hint. Set the minChar option to 0 to enable this:
+
+<pre><code>$("#demo").tokenInput('/search', {
+    minChar: 0
+});
+</code></pre>
 
 ### Trigger change event
 Listeners for $(element).change() will receive a change event just like other inputs.
