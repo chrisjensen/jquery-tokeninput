@@ -8,6 +8,9 @@ Tokeninput is a jQuery plugin which allows your users to select multiple items f
 Changes from upstream
 ---------------------
 
+### Show search immediately
+Allows you to set settings.minChar to 0, which will cause it to do a search instead of showing the hint.
+
 ### Trigger change event
 Listeners for $(element).change() will receive a change event just like other inputs.
 
